@@ -13,8 +13,6 @@ class CSVFile():
                 result.append(values)
                 values.clear
         return values
-
-
         
 fileCSV = CSVFile("shampoo_sales.csv")
 print(fileCSV.get_data())
