@@ -1,4 +1,4 @@
-hclass CSVFile():
+class CSVFile():
     def __init__(self, file_name):
         self.name = file_name
         self.file = open(self.name, 'r')
